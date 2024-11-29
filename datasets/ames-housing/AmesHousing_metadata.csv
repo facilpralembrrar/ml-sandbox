@@ -1,83 +1,83 @@
 ,Nome,Descrição,Tipo,Domínio
-0,Order,Número da observação/amostra,ND,[]
-1,PID,Número de identificação - pode ser usado no site da cidade para revisão,CN,[]
-2,MS SubClass,Classe do tipo de construção,CN,"['20', '30', '40', '45', '50', '60', '70', '75', '80', '85', '90', '120', '150', '160', '180', '190']"
-3,MS Zoning,Classificação da zona geral de vendas,CN,"['A', 'C', 'FV', 'I', 'RH', 'RL', 'RP', 'RM']"
-4,Lot Frontage,Comprimento da rua conectado à propriedade (pés),NC,[]
-5,Lot Area,Tamanho do lote (pés quadrados),NC,[]
-6,Street,Tipo de pavimentação da rua,CN,"['Grvl', 'Pave']"
-7,Alley,Tipo de acesso ao beco,CN,"['Grvl', 'Pave', 'NA']"
-8,Lot Shape,Forma geral da propriedade,CO,"['Reg', 'IR1', 'IR2', 'IR3']"
-9,Land Contour,Planicidade do terreno,CN,"['Lvl', 'Bnk', 'HLS', 'Low']"
-10,Utilities,Tipo de utilidades disponíveis,CN,"['AllPub', 'NoSewr', 'NoSeWa', 'ELO']"
-11,Lot Config,Configuração do lote,CN,"['Inside', 'Corner', 'CulDSac', 'FR2', 'FR3']"
-12,Land Slope,Declive da propriedade,CO,"['Gtl', 'Mod', 'Sev']"
-13,Neighborhood,Localização física dentro dos limites da cidade de Ames,CN,"['CollgCr', 'Veenker', 'Crawfor', 'NoRidge', 'Mitchel', 'Somerst', 'NWAmes', 'OldTown', 'BrkSide', 'Sawyer', 'NridgHt', 'SawyerW', 'IDOTRR', 'MeadowV', 'Edwards', 'Timber', 'Gilbert', 'StoneBr', 'ClearCr', 'NPkVill', 'Blmngtn', 'BrDale', 'SWISU', 'Blueste', 'Names', 'Greens', 'GrnHill', 'Landmrk']"
-14,Condition 1,Proximidade a vias principais ou ferrovia,CN,"['Artery', 'Feedr', 'Norm', 'RRNn', 'RRAn', 'PosN', 'PosA', 'RRNe', 'RRAe']"
-15,Condition 2,Proximidade a vias principais ou ferrovia (se houver uma segunda),CN,"['Artery', 'Feedr', 'Norm', 'RRNn', 'RRAn', 'PosN', 'PosA', 'RRNe', 'RRAe']"
-16,Bldg Type,Tipo de habitação,CN,"['1Fam', '2FmCon', 'Duplex', 'TwnhsE', 'Twnhs']"
-17,House Style,Estilo da habitação,CN,"['1Story', '1.5Fin', '1.5Unf', '2Story', '2.5Fin', '2.5Unf', 'SFoyer', 'SLvl']"
-18,Overall Qual,Classificação geral do material e acabamento,CO,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
-19,Overall Cond,Classificação geral da condição,CO,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
-20,Year Built,Ano de construção original,ND,[]
-21,Year Remod/Add,Ano da última remodelação,ND,[]
-22,Roof Style,Tipo de estilo do telhado,CN,"['Flat', 'Gable', 'Gambrel', 'Hip', 'Mansard', 'Shed']"
-23,Roof Matl,Material de cobertura do telhado,CN,"['ClyTile', 'CompShg', 'Membran', 'Metal', 'Roll', 'Tar&Grv', 'WdShake', 'WdShngl']"
-24,Exterior 1st,Revestimento exterior na parte da frente,CN,"['AsbShng', 'AsphShn', 'BrkComm', 'BrkFace', 'CBlock', 'CemntBd', 'HdBoard', 'ImStucc', 'MetalSd', 'Other', 'Plywood', 'PreCast', 'Stone', 'Stucco', 'VinylSd', 'Wd Sdng', 'WdShing']"
-25,Exterior 2nd,Revestimento exterior na parte de trás,CN,"['AsbShng', 'AsphShn', 'BrkComm', 'BrkFace', 'CBlock', 'CemntBd', 'HdBoard', 'ImStucc', 'MetalSd', 'Other', 'Plywood', 'PreCast', 'Stone', 'Stucco', 'VinylSd', 'Wd Sdng', 'WdShing']"
-26,Mas Vnr Type,Tipo de revestimento de alvenaria,CN,"['BrkCmn', 'BrkFace', 'CBlock', 'None', 'Stone']"
-27,Mas Vnr Area,Área de revestimento de alvenaria (pés quadrados),NC,[]
-28,Exter Qual,Qualidade do material exterior,CO,"['Ex', 'Gd', 'TA', 'Fa', 'Po']"
-29,Exter Cond,Condição do material exterior,CO,"['Ex', 'Gd', 'TA', 'Fa', 'Po']"
-30,Foundation,Tipo de fundação,CN,"['BrkTil', 'CBlock', 'PConc', 'Slab', 'Stone', 'Wood']"
-31,Bsmt Qual,Altura do porão,CO,"['Ex', 'Gd', 'TA', 'Fa', 'Po', 'NA']"
-32,Bsmt Cond,Condição geral do porão,CO,"['Ex', 'Gd', 'TA', 'Fa', 'Po', 'NA']"
-33,Bsmt Exposure,Caminho ou jardim de nível de saída do porão,CO,"['Gd', 'Av', 'Mn', 'No', 'NA']"
-34,BsmtFin Type 1,Qualidade do acabamento do porão,CO,"['GLQ', 'ALQ', 'BLQ', 'Rec', 'LwQ', 'Unf', 'NA']"
-35,BsmtFin SF 1,Área acabada do tipo 1 do porão (pés quadrados),NC,[]
-36,BsmtFin Type 2,Tipo de acabamento secundário do porão,CO,"['GLQ', 'ALQ', 'BLQ', 'Rec', 'LwQ', 'Unf', 'NA']"
-37,BsmtFin SF 2,Área acabada do tipo 2 do porão (pés quadrados),NC,[]
-38,Bsmt Unf SF,Área não acabada do porão (pés quadrados),NC,[]
-39,Total Bsmt SF,Área total do porão (pés quadrados),NC,[]
-40,Heating,Tipo de aquecimento,CN,"['Floor', 'GasA', 'GasW', 'Grav', 'OthW', 'Wall']"
-41,Heating QC,Qualidade e condição do aquecimento,CO,"['Ex', 'Gd', 'TA', 'Fa', 'Po']"
-42,Central Air,Ar condicionado central,CN,"['N', 'Y']"
-43,Electrical,Sistema elétrico,CN,"['SBrkr', 'FuseA', 'FuseF', 'FuseP', 'Mix']"
-44,1st Flr SF,Área do primeiro andar (pés quadrados),NC,[]
-45,2nd Flr SF,Área do segundo andar (pés quadrados),NC,[]
-46,Low Qual Fin SF,Área acabada de baixa qualidade (pés quadrados),NC,[]
-47,Gr Liv Area,Área de estar acima do nível do solo (pés quadrados),NC,[]
-48,Bsmt Full Bath,Número de banheiros completos no porão,ND,[]
-49,Bsmt Half Bath,Número de meios banheiros no porão,ND,[]
-50,Full Bath,Número de banheiros completos acima do nível do solo,ND,[]
-51,Half Bath,Número de meios banheiros acima do nível do solo,ND,[]
-52,Bedroom AbvGr,Número de quartos acima do nível do solo,ND,[]
-53,Kitchen AbvGr,Número de cozinhas acima do nível do solo,ND,[]
-54,Kitchen Qual,Qualidade da cozinha,CO,"['Ex', 'Gd', 'TA', 'Fa', 'Po']"
-55,TotRms AbvGrd,Número total de cômodos acima do nível do solo (excluindo banheiros),ND,[]
-56,Functional,Classificação de funcionalidade da casa,CO,"['Typ', 'Min1', 'Min2', 'Mod', 'Maj1', 'Maj2', 'Sev', 'Sal']"
-57,Fireplaces,Número de lareiras,ND,[]
-58,Fireplace Qu,Qualidade da lareira,CO,"['Ex', 'Gd', 'TA', 'Fa', 'Po', 'NA']"
-59,Garage Type,Localização da garagem,CN,"['2Types', 'Attchd', 'Basment', 'BuiltIn', 'CarPort', 'Detchd', 'NA']"
-60,Garage Yr Blt,Ano de construção da garagem,ND,[]
-61,Garage Finish,Acabamento interior da garagem,CO,"['Fin', 'RFn', 'Unf', 'NA']"
-62,Garage Cars,Capacidade de carros na garagem,ND,[]
-63,Garage Area,Área da garagem (pés quadrados),NC,[]
-64,Garage Qual,Qualidade da garagem,CO,"['Ex', 'Gd', 'TA', 'Fa', 'Po', 'NA']"
-65,Garage Cond,Condição da garagem,CO,"['Ex', 'Gd', 'TA', 'Fa', 'Po', 'NA']"
-66,Paved Drive,Entrada pavimentada,CO,"['Y', 'P', 'N']"
-67,Wood Deck SF,Área do deck de madeira (pés quadrados),NC,[]
-68,Open Porch SF,Área da varanda aberta (pés quadrados),NC,[]
-69,Enclosed Porch,Área da varanda fechada (pés quadrados),NC,[]
-70,3Ssn Porch,Área da varanda de três estações (pés quadrados),NC,[]
-71,Screen Porch,Área da varanda com tela (pés quadrados),NC,[]
-72,Pool Area,Área da piscina (pés quadrados),NC,[]
-73,Pool QC,Qualidade da piscina,CO,"['Ex', 'Gd', 'TA', 'Fa', 'NA']"
-74,Fence,Qualidade da cerca,CO,"['GdPrv', 'MnPrv', 'GdWo', 'MnWw', 'NA']"
-75,Misc Feature,Características diversas não incluídas em outras categorias,CN,"['Elev', 'Gar2', 'Othr', 'Shed', 'TenC', 'NA']"
-76,Misc Val,Valor das características diversas ($),NC,[]
-77,Mo Sold,Mês da venda,ND,[]
-78,Yr Sold,Ano da venda,ND,[]
-79,Sale Type,Tipo de venda,CN,"['WD', 'CWD', 'VWD', 'New', 'COD', 'Con', 'ConLw', 'ConLI', 'ConLD', 'Oth']"
-80,Sale Condition,Condição da venda,CN,"['Normal', 'Abnorml', 'AdjLand', 'Alloca', 'Family', 'Partial']"
-81,SalePrice,Preça da venda,NC,[]
+0,Order,Número da observação/amostra,ND,
+1,PID,Número de identificação - pode ser usado no site da cidade para revisão,CN,
+2,MS SubClass,Classe do tipo de construção,CN,"20, 30, 40, 45, 50, 60, 70, 75, 80, 85, 90, 120, 150, 160, 180, 190"
+3,MS Zoning,Classificação da zona geral de vendas,CN,"A, C, FV, I, RH, RL, RP, RM"
+4,Lot Frontage,Comprimento da rua conectado à propriedade (pés),NC,
+5,Lot Area,Tamanho do lote (pés quadrados),NC,
+6,Street,Tipo de pavimentação da rua,CN,"Grvl, Pave"
+7,Alley,Tipo de acesso ao beco,CN,"Grvl, Pave, NA"
+8,Lot Shape,Forma geral da propriedade,CO,"Reg, IR1, IR2, IR3"
+9,Land Contour,Planicidade do terreno,CN,"Lvl, Bnk, HLS, Low"
+10,Utilities,Tipo de utilidades disponíveis,CN,"AllPub, NoSewr, NoSeWa, ELO"
+11,Lot Config,Configuração do lote,CN,"Inside, Corner, CulDSac, FR2, FR3"
+12,Land Slope,Declive da propriedade,CO,"Gtl, Mod, Sev"
+13,Neighborhood,Localização física dentro dos limites da cidade de Ames,CN,"CollgCr, Veenker, Crawfor, NoRidge, Mitchel, Somerst, NWAmes, OldTown, BrkSide, Sawyer, NridgHt, SawyerW, IDOTRR, MeadowV, Edwards, Timber, Gilbert, StoneBr, ClearCr, NPkVill, Blmngtn, BrDale, SWISU, Blueste, Names, Greens, GrnHill, Landmrk"
+14,Condition 1,Proximidade a vias principais ou ferrovia,CN,"Artery, Feedr, Norm, RRNn, RRAn, PosN, PosA, RRNe, RRAe"
+15,Condition 2,Proximidade a vias principais ou ferrovia (se houver uma segunda),CN,"Artery, Feedr, Norm, RRNn, RRAn, PosN, PosA, RRNe, RRAe"
+16,Bldg Type,Tipo de habitação,CN,"1Fam, 2FmCon, Duplex, TwnhsE, Twnhs"
+17,House Style,Estilo da habitação,CN,"1Story, 1.5Fin, 1.5Unf, 2Story, 2.5Fin, 2.5Unf, SFoyer, SLvl"
+18,Overall Qual,Classificação geral do material e acabamento,CO,"1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+19,Overall Cond,Classificação geral da condição,CO,"1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+20,Year Built,Ano de construção original,ND,
+21,Year Remod/Add,Ano da última remodelação,ND,
+22,Roof Style,Tipo de estilo do telhado,CN,"Flat, Gable, Gambrel, Hip, Mansard, Shed"
+23,Roof Matl,Material de cobertura do telhado,CN,"ClyTile, CompShg, Membran, Metal, Roll, Tar&Grv, WdShake, WdShngl"
+24,Exterior 1st,Revestimento exterior na parte da frente,CN,"AsbShng, AsphShn, BrkComm, BrkFace, CBlock, CemntBd, HdBoard, ImStucc, MetalSd, Other, Plywood, PreCast, Stone, Stucco, VinylSd, Wd Sdng, WdShing"
+25,Exterior 2nd,Revestimento exterior na parte de trás,CN,"AsbShng, AsphShn, BrkComm, BrkFace, CBlock, CemntBd, HdBoard, ImStucc, MetalSd, Other, Plywood, PreCast, Stone, Stucco, VinylSd, Wd Sdng, WdShing"
+26,Mas Vnr Type,Tipo de revestimento de alvenaria,CN,"BrkCmn, BrkFace, CBlock, None, Stone"
+27,Mas Vnr Area,Área de revestimento de alvenaria (pés quadrados),NC,
+28,Exter Qual,Qualidade do material exterior,CO,"Ex, Gd, TA, Fa, Po"
+29,Exter Cond,Condição do material exterior,CO,"Ex, Gd, TA, Fa, Po"
+30,Foundation,Tipo de fundação,CN,"BrkTil, CBlock, PConc, Slab, Stone, Wood"
+31,Bsmt Qual,Altura do porão,CO,"Ex, Gd, TA, Fa, Po, NA"
+32,Bsmt Cond,Condição geral do porão,CO,"Ex, Gd, TA, Fa, Po, NA"
+33,Bsmt Exposure,Caminho ou jardim de nível de saída do porão,CO,"Gd, Av, Mn, No, NA"
+34,BsmtFin Type 1,Qualidade do acabamento do porão,CO,"GLQ, ALQ, BLQ, Rec, LwQ, Unf, NA"
+35,BsmtFin SF 1,Área acabada do tipo 1 do porão (pés quadrados),NC,
+36,BsmtFin Type 2,Tipo de acabamento secundário do porão,CO,"GLQ, ALQ, BLQ, Rec, LwQ, Unf, NA"
+37,BsmtFin SF 2,Área acabada do tipo 2 do porão (pés quadrados),NC,
+38,Bsmt Unf SF,Área não acabada do porão (pés quadrados),NC,
+39,Total Bsmt SF,Área total do porão (pés quadrados),NC,
+40,Heating,Tipo de aquecimento,CN,"Floor, GasA, GasW, Grav, OthW, Wall"
+41,Heating QC,Qualidade e condição do aquecimento,CO,"Ex, Gd, TA, Fa, Po"
+42,Central Air,Ar condicionado central,CN,"N, Y"
+43,Electrical,Sistema elétrico,CN,"SBrkr, FuseA, FuseF, FuseP, Mix"
+44,1st Flr SF,Área do primeiro andar (pés quadrados),NC,
+45,2nd Flr SF,Área do segundo andar (pés quadrados),NC,
+46,Low Qual Fin SF,Área acabada de baixa qualidade (pés quadrados),NC,
+47,Gr Liv Area,Área de estar acima do nível do solo (pés quadrados),NC,
+48,Bsmt Full Bath,Número de banheiros completos no porão,ND,
+49,Bsmt Half Bath,Número de meios banheiros no porão,ND,
+50,Full Bath,Número de banheiros completos acima do nível do solo,ND,
+51,Half Bath,Número de meios banheiros acima do nível do solo,ND,
+52,Bedroom AbvGr,Número de quartos acima do nível do solo,ND,
+53,Kitchen AbvGr,Número de cozinhas acima do nível do solo,ND,
+54,Kitchen Qual,Qualidade da cozinha,CO,"Ex, Gd, TA, Fa, Po"
+55,TotRms AbvGrd,Número total de cômodos acima do nível do solo (excluindo banheiros),ND,
+56,Functional,Classificação de funcionalidade da casa,CO,"Typ, Min1, Min2, Mod, Maj1, Maj2, Sev, Sal"
+57,Fireplaces,Número de lareiras,ND,
+58,Fireplace Qu,Qualidade da lareira,CO,"Ex, Gd, TA, Fa, Po, NA"
+59,Garage Type,Localização da garagem,CN,"2Types, Attchd, Basment, BuiltIn, CarPort, Detchd, NA"
+60,Garage Yr Blt,Ano de construção da garagem,ND,
+61,Garage Finish,Acabamento interior da garagem,CO,"Fin, RFn, Unf, NA"
+62,Garage Cars,Capacidade de carros na garagem,ND,
+63,Garage Area,Área da garagem (pés quadrados),NC,
+64,Garage Qual,Qualidade da garagem,CO,"Ex, Gd, TA, Fa, Po, NA"
+65,Garage Cond,Condição da garagem,CO,"Ex, Gd, TA, Fa, Po, NA"
+66,Paved Drive,Entrada pavimentada,CO,"Y, P, N"
+67,Wood Deck SF,Área do deck de madeira (pés quadrados),NC,
+68,Open Porch SF,Área da varanda aberta (pés quadrados),NC,
+69,Enclosed Porch,Área da varanda fechada (pés quadrados),NC,
+70,3Ssn Porch,Área da varanda de três estações (pés quadrados),NC,
+71,Screen Porch,Área da varanda com tela (pés quadrados),NC,
+72,Pool Area,Área da piscina (pés quadrados),NC,
+73,Pool QC,Qualidade da piscina,CO,"Ex, Gd, TA, Fa, NA"
+74,Fence,Qualidade da cerca,CO,"GdPrv, MnPrv, GdWo, MnWw, NA"
+75,Misc Feature,Características diversas não incluídas em outras categorias,CN,"Elev, Gar2, Othr, Shed, TenC, NA"
+76,Misc Val,Valor das características diversas ($),NC,
+77,Mo Sold,Mês da venda,ND,
+78,Yr Sold,Ano da venda,ND,
+79,Sale Type,Tipo de venda,CN,"WD, CWD, VWD, New, COD, Con, ConLw, ConLI, ConLD, Oth"
+80,Sale Condition,Condição da venda,CN,"Normal, Abnorml, AdjLand, Alloca, Family, Partial"
+81,SalePrice,Preça da venda,NC,
